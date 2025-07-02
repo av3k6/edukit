@@ -1,0 +1,313 @@
+.teal {
+    color: #38B6AC;
+}
+
+header:not(#masthead) .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.row {
+    margin: 0 !important;
+}
+
+.row .col {
+    margin-bottom: 10px !important;
+}
+
+.row .col-4 {
+    margin-right: 20px;
+}
+
+.row .col-8 {
+    margin-left: 20px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.orchard-layouts-root img:after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.orchard-layouts-root section {
+    padding: 50px 0;
+}
+
+.title, .link, .title.sidebar {
+    font-family: MuseoSansRounded-500;
+    font-weight: normal;
+    font-style: normal;
+    padding: 0;
+}
+
+/* Header 
+---------------------------------------*/
+
+.pillar-header-section {
+        margin-top: -150px;
+        padding-top: 160px;
+        height: 475px;
+        position: relative;
+        background-position: center right;
+        background-size: cover;
+}
+
+.pillar-header-section .container {
+    width: 1370px;
+    /* position: absolute; */
+}
+
+.pillar-header-section .row {
+    margin-left: 8.3333%;
+    position: absolute;
+    bottom: 95px;
+}
+
+.pillar-header-section .tagline {
+    font-size: 3.5em;
+    font-family: Satisfy, cursive;
+}
+
+.buying-school {
+    font-size: 50px;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+}
+
+/* Information Section & Edukit Program Schools
+----------------------------------------*/
+.school-supplies-overview img {
+    float: right;
+    width: 45%;
+    padding-left: 15px;
+}
+
+.section-titles {
+    border-right: 5px solid transparent;
+    padding: 10px 15px 10px 0;
+    margin-bottom: 50px;
+}
+
+.section-titles.border.purple {
+    border-right-color: #9E4894;
+}
+
+.section-titles.border.blue {
+    border-right-color: #39A4E4;
+}
+
+.section-titles.border.teal {
+    border-right-color: #38B6AC;
+}
+
+.section-titles.border.orange {
+    border-right-color: #F5963D;
+}
+
+.title.sidebar {
+    font-size: 30px;
+    line-height: 1;
+}
+
+.more-info {
+    padding: 0;
+}
+
+.more-info li {
+    list-style: none;
+    list-style-image: none;
+}
+
+.more-info > .link {
+    font-weight: 700;
+    font-size: 22px;
+    color: #C3C3C3;
+}
+
+.more-info .link:hover:before,
+.more-info .link.arrow:before {
+    content: '\25B6';
+    margin-right: 10px;
+}
+
+.more-info .link:hover.overview,
+.more-info .link.arrow.overview,
+.more-info .link.overview.active,
+.child-school .parents.active,
+.child-school .schools.active,
+.child-school .parents:hover,
+.child-school .schools:hover {
+    color: #9E4894;
+}
+
+.more-info .link:hover.parents,
+.more-info .link.arrow.parents {
+    color: #39A4E4;
+}
+
+.more-info .link:hover.schools,
+.more-info .link.arrow.schools {
+    color: #38B6AC;
+}
+
+.more-info .link:hover.remote,
+.more-info .link.arrow.remote {
+    color: #F5963D;
+}
+
+.information p {
+    margin-bottom: 40px;
+}
+
+.school-supplies-overview .col > div:not(.section-titles),
+.edukit-program-schools .col > div:not(.section-titles) {
+    display: none;
+}
+
+.school-supplies-overview .col > .information.opened,
+.edukit-program-schools .col > .information.opened {
+    display: block;
+}
+
+.title.content {
+    font-size: 40px;
+}
+
+.description {
+    font-weight: 300;
+    font-size: 21px;
+}
+
+.description.bold {
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.information .five-steps {
+    margin: 0 30px 15px;
+}
+
+/* Online Supply Shopping
+---------------------------------------------------*/
+.online-supply-shopping {
+    background-color: #9E4894;
+}
+
+.online-supply-shopping img {
+    width: 100%;
+    padding-right: 15px;
+}
+
+.online-supply-shopping .title {
+    font-size: 49px;
+}
+
+.online-supply-shopping .description {
+    font-weight: 500;
+}
+
+/* Edukit Program Schools
+--------------------------------------------------*/
+.btn {
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 900;
+}
+.child-school .parents:hover:before,
+.child-school .parents.arrow:before,
+.child-school .schools:hover:before,
+.child-school .schools.arrow:before {
+    content: '\25B6';
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+/* Learn More About Edukit
+---------------------------------------------------*/
+.learn-more-edukit {
+    background-image: url("Images/learn-about-edukit-cta.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+.about-edukit {
+    text-align: center;
+    padding: 250px 50px !important;
+}
+
+.about-edukit h2 {
+    font-size: 50px;
+}
+
+/* Media Queries
+---------------------------------------------------*/
+
+@media (max-width: 1369px) {
+    .pillar-header-section .container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    section {
+        padding: 20px 0;
+    }
+    .container {
+        width: 100%;
+        padding: 0;
+    }
+    .row {
+        flex-wrap: wrap;
+    }
+    .information,
+    .online-supply-shopping .col-8,
+    .program-details {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .orchard-layouts-root img {
+        float: unset;
+        width: 100%;
+        padding-left: 0;
+        margin-bottom: 15px;
+    }
+    .section-titles {
+        padding: 30px 30px 10px;
+        margin-bottom: 10px;
+    }
+    .section-titles.purple {
+        border-right-color: transparent;
+    }
+    
+    .section-titles.blue {
+        border-right-color: transparent;
+        border-top: 1px solid #39A4E4;
+    }
+    
+    .section-titles.teal {
+        border-right-color: transparent;
+        border-top: 1px solid #38B6AC;
+    }
+    
+    .section-titles.orange {
+        border-right-color: transparent;
+        border-top: 1px solid #F5963D;
+    }
+    .more-info li:last-of-type {
+        margin-bottom: 5px;
+    }
+    .school-supplies-overview p {
+        margin-bottom: 40px;
+    }
+    .online-supply-shopping .supply-shopping-backpack {
+        width: 25%;
+        display: block;
+        margin: 0 auto;
+    }
+}
